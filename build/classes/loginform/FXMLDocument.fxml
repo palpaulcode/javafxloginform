@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="485.0" prefWidth="455.0" style="-fx-background-color: afeeee;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="loginform.FXMLDocumentController">
+    <children>
+      <JFXTextField fx:id="name" focusColor="#05f80d" labelFloat="true" layoutX="39.0" layoutY="88.0" prefHeight="25.0" prefWidth="288.0" promptText="username" unFocusColor="#2907ee" />
+      <JFXTextField fx:id="password" focusColor="#00ff09" labelFloat="true" layoutX="39.0" layoutY="147.0" prefHeight="25.0" prefWidth="288.0" promptText="password" unFocusColor="#1500ff" />
+      <JFXButton buttonType="RAISED" layoutX="268.0" layoutY="205.0" ripplerFill="#00ff44" style="-fx-background-color: #a9a9a9;" text="Log In" textFill="#ff11ff">
+         <font>
+            <Font name="SansSerif Regular" size="14.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>
